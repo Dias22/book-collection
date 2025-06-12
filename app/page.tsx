@@ -1,4 +1,16 @@
-import Image from "next/image";
+export default function Home() {
+  return (
+    <main style={{ padding: "2rem", fontFamily: "sans-serif" }}>
+      <h1>Добро пожаловать в коллекцию книг 📚</h1>
+      <p>Перейдите к своим книгам:</p>
+      <a href="/collections" style={{ color: "#0070f3", textDecoration: "underline" }}>
+        Перейти к коллекциям →
+      </a>
+    </main>
+  );
+}
+
+/*import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -93,3 +105,4 @@ export default function Home() {
     </div>
   );
 }
+*/
