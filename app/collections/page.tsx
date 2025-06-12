@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { TextInput, Button, Card, Title } from '@mantine/core';
-import supabase from '@/lib/supabase';
+import { supabase } from '@/lib/supabase';
 import Link from 'next/link';
 
 export default function CollectionsPage() {
